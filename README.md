@@ -29,7 +29,7 @@
 
 ```bash
 # Clone repo
-git clone https://github.com/Emaf-png/CamScanner-Pro.git
+git clone https://github.com/CLXV11/CamScanner-Pro.git
 cd CamScanner-Pro
 
 # Make executable
@@ -108,5 +108,5 @@ Unauthorized use is a cybercrime.
 Quick Install (Copy-Paste to Termux)
 
 ```bash
-git clone https://github.com/Emaf-png/CamScanner-Pro.git && cd CamScanner-Pro && chmod +x camsec_pro.sh && ./camsec_pro.sh
+git clone https://github.com/CLXV11/CamScanner-Pro.git && cd CamScanner-Pro && chmod +x camsec_pro.sh && ./camsec_pro.sh
 ```
