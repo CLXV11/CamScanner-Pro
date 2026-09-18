@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq shellcheck jq curl ffmpeg python3
+
+      - name: bash -n (syntax)
+        run: bash -n cam_scanner.sh
+
+      - name: ShellCheck (advisory, never blocks on style)
+        run: shellcheck -S warning cam_scanner.sh || true
+
+      - name: Self-test
+        run: ./cam_scanner.sh --self-test
+
+      - name: Integration tests (mock camera, localhost only)
+        run: tests/run_tests.sh

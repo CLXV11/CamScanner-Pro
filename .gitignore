@@ -1,0 +1,17 @@
+# Runtime artifacts (never commit scan data)
+logs/
+reports/
+captures/
+*.log
+*.json
+!*.schema.json
+
+# Local config may contain API keys
+config.cfg
+
+# OS/editor noise
+.DS_Store
+*~
+*.swp
+.idea/
+.vscode/
