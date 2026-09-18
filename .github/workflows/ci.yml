@@ -23,7 +23,7 @@ jobs:
         run: shellcheck -S warning cam_scanner.sh || true
 
       - name: Self-test
-        run: ./cam_scanner.sh --self-test
+        run: bash cam_scanner.sh --self-test
 
       - name: Integration tests (mock camera, localhost only)
-        run: tests/run_tests.sh
+        run: bash tests/run_tests.sh
