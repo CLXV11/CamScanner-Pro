@@ -1,3 +1,5 @@
+![CI](https://github.com/CLXV11/CamScanner-Pro/actions/workflows/ci.yml/badge.svg)
+
 # CAM-SEC Scanner v3.0.0
 
 Defensive IP-camera security assessment for **Termux/Android (rootless)** and Linux.
