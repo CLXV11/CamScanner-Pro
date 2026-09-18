@@ -1,4 +1,8 @@
 ![CI](https://github.com/CLXV11/CamScanner-Pro/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-green)
+![Bash](https://img.shields.io/badge/bash-%3E%3D4.3-4EAA25)
+
 
 # CAM-SEC Scanner v3.0.0
 
