@@ -72,7 +72,7 @@ chmod +x cam_scanner.sh
 # whole LAN (authorization confirmation required)
 ./cam_scanner.sh --cidr 192.168.1.0/24
 
-# interactive menu
+# interactive menuون
 ./cam_scanner.sh
 ```
 
