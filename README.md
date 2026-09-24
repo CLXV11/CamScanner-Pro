@@ -129,7 +129,7 @@ No finding is emitted without `WHY_DETECTED / WHAT_WAS_TESTED /
 WHAT_RESPONSE_WAS_RECEIVED`. When evidence is insufficient the result is
 `INCONCLUSIVE` or `NO_EVIDENCE` — never inflated to look impressive.
 
-## License
+## Licenseg
 
 MIT — see [LICENSE](LICENSE).
 
